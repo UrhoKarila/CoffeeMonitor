@@ -1,10 +1,10 @@
 //#define DEBUG
 
-//#define USE_RGB_INDICATOR
+#define USE_RGB_INDICATOR
 #ifdef USE_RGB_INDICATOR
-  #define PIN_BLUE	0
-  #define PIN_GREEN	0
-  #define PIN_RED	0
+  #define PIN_BLUE	9
+  #define PIN_GREEN	10
+  #define PIN_RED	11
 #endif //USE_RGB_INDICATOR
 
 #define UPDATE_FREQ 1
