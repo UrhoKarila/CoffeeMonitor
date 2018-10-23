@@ -13,8 +13,6 @@
 #ifdef USE_OLED_INDICATOR
 //may depend on individual screen. Use an I2C scanner to determine your address.
 	#define I2C_ADDRESS 0x3C
-	//#define GND 0
-	//#define VCC 2
-	//#define PIN_SCL 3
-	//#define PIN_SDA 4
 #endif
+
+//started at 9:46
